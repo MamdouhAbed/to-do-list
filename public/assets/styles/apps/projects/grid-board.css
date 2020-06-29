@@ -1,0 +1,362 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Container / .projects-grid-board
+2. Projects grid list / .projects-grid-board > .projects
+3. Tasks list / .projects-grid-board > .tasks
+-------------------------------------------------------------------*/
+.projects-grid-board {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  height: 100%; }
+  .projects-grid-board > .projects {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .projects-grid-board > .projects > .header {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      padding: 30px 30px 30px 30px;
+      background: #fff;
+      border-bottom: 1px solid #dee0e1; }
+      .projects-grid-board > .projects > .header > .search {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; }
+      .projects-grid-board > .projects > .header > .controls {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex;
+        margin-left: 10px; }
+        .projects-grid-board > .projects > .header > .controls > .dropdown-filter {
+          margin-right: 10px; }
+          .projects-grid-board > .projects > .header > .controls > .dropdown-filter > .dropdown-toggle {
+            padding-left: 12px;
+            padding-right: 12px; }
+            .projects-grid-board > .projects > .header > .controls > .dropdown-filter > .dropdown-toggle:after {
+              position: absolute;
+              top: 50%;
+              margin-top: -7px;
+              right: 12px; }
+          .projects-grid-board > .projects > .header > .controls > .dropdown-filter > .dropdown-menu {
+            padding: 20px;
+            width: 210px;
+            min-width: 210px; }
+            .projects-grid-board > .projects > .header > .controls > .dropdown-filter > .dropdown-menu > .header {
+              font-size: 14px;
+              font-weight: 500;
+              margin-bottom: 20px; }
+            .projects-grid-board > .projects > .header > .controls > .dropdown-filter > .dropdown-menu > .filters > .custom-control + .custom-control {
+              margin-left: 0; }
+            .projects-grid-board > .projects > .header > .controls > .dropdown-filter > .dropdown-menu > .filters > .filter {
+              margin-bottom: 15px;
+              display: block; }
+    .projects-grid-board > .projects > .body {
+      height: 1px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      .projects-grid-board > .projects > .body .scroll-wrapper {
+        padding: 30px;
+        height: 100%; }
+      .projects-grid-board > .projects > .body .project {
+        position: relative;
+        padding: 20px 30px 30px 30px;
+        width: 100%; }
+        .projects-grid-board > .projects > .body .project > .header {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          -js-display: flex;
+          display: flex;
+          -webkit-box-pack: end;
+          -webkit-justify-content: flex-end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin-bottom: 15px; }
+          .projects-grid-board > .projects > .body .project > .header > .favorite {
+            font-size: 18px;
+            margin-right: 10px;
+            color: #c4cbe1; }
+            .projects-grid-board > .projects > .body .project > .header > .favorite:hover {
+              text-decoration: none; }
+            .projects-grid-board > .projects > .body .project > .header > .favorite.active {
+              color: #ffb300; }
+          .projects-grid-board > .projects > .body .project > .header > .control > .btn {
+            padding-left: 0;
+            padding-right: 0; }
+            .projects-grid-board > .projects > .body .project > .header > .control > .btn > .icon {
+              font-size: 24px;
+              color: #333; }
+        .projects-grid-board > .projects > .body .project > .body > .name {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          -js-display: flex;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin-bottom: 15px; }
+          .projects-grid-board > .projects > .body .project > .body > .name > .image {
+            width: 55px;
+            height: 55px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            margin-right: 15px; }
+          .projects-grid-board > .projects > .body .project > .body > .name > .text {
+            color: #333;
+            font-size: 18px;
+            font-weight: normal; }
+        .projects-grid-board > .projects > .body .project > .body > .description {
+          font-size: 12px;
+          margin-bottom: 20px; }
+        .projects-grid-board > .projects > .body .project > .body > .meta {
+          margin-bottom: 10px; }
+          .projects-grid-board > .projects > .body .project > .body > .meta > .item {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            -js-display: flex;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin-bottom: 10px; }
+            .projects-grid-board > .projects > .body .project > .body > .meta > .item:last-child {
+              margin-bottom: 0; }
+            .projects-grid-board > .projects > .body .project > .body > .meta > .item > .name {
+              color: #858585;
+              font-size: 10px;
+              width: 84px;
+              text-transform: uppercase; }
+            .projects-grid-board > .projects > .body .project > .body > .meta > .item > .description {
+              width: 1px;
+              -webkit-box-flex: 1;
+              -webkit-flex: 1 1 auto;
+                  -ms-flex: 1 1 auto;
+                      flex: 1 1 auto; }
+              .projects-grid-board > .projects > .body .project > .body > .meta > .item > .description .progress {
+                width: 120px; }
+            .projects-grid-board > .projects > .body .project > .body > .meta > .item.images > .name {
+              position: relative;
+              top: -2px; }
+            .projects-grid-board > .projects > .body .project > .body > .meta > .item.images > .description {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              -js-display: flex;
+              display: flex;
+              -webkit-flex-wrap: wrap;
+                  -ms-flex-wrap: wrap;
+                      flex-wrap: wrap; }
+              .projects-grid-board > .projects > .body .project > .body > .meta > .item.images > .description > .image {
+                text-decoration: none;
+                margin-right: 9px;
+                margin-bottom: 9px; }
+                .projects-grid-board > .projects > .body .project > .body > .meta > .item.images > .description > .image:hover {
+                  text-decoration: none; }
+                .projects-grid-board > .projects > .body .project > .body > .meta > .item.images > .description > .image > img {
+                  width: 25px;
+                  height: 25px; }
+              .projects-grid-board > .projects > .body .project > .body > .meta > .item.images > .description > .add {
+                width: 25px;
+                height: 25px;
+                background-color: #ffffff;
+                -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                border: solid 1px #25628F;
+                display: block;
+                font-size: 16px;
+                color: #25628F;
+                line-height: 25px;
+                text-align: center;
+                text-decoration: none; }
+        .projects-grid-board > .projects > .body .project > .body > .tags {
+          margin-bottom: 16px; }
+          .projects-grid-board > .projects > .body .project > .body > .tags > .badge {
+            padding: 3px;
+            margin-right: 10px;
+            margin-bottom: 0; }
+            .projects-grid-board > .projects > .body .project > .body > .tags > .badge:last-child {
+              margin-right: 0; }
+        .projects-grid-board > .projects > .body .project > .body > .controls > .control {
+          cursor: pointer;
+          display: inline-block;
+          margin-right: 15px; }
+          .projects-grid-board > .projects > .body .project > .body > .controls > .control:last-child {
+            margin-right: 0; }
+          .projects-grid-board > .projects > .body .project > .body > .controls > .control > .icon {
+            color: #9da9cd;
+            font-size: 19px;
+            display: inline-block;
+            margin-right: 5px;
+            position: relative;
+            top: 2px; }
+          .projects-grid-board > .projects > .body .project > .body > .controls > .control > .amount {
+            font-size: 12px;
+            color: #333; }
+          .projects-grid-board > .projects > .body .project > .body > .controls > .control:hover {
+            text-decoration: none; }
+            .projects-grid-board > .projects > .body .project > .body > .controls > .control:hover > .icon {
+              color: #25628F; }
+  .projects-grid-board > .tasks {
+    background: #fff;
+    width: 394px;
+    border-left: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .projects-grid-board > .tasks > .list {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .projects-grid-board > .tasks > .list > .header {
+        height: 59px;
+        min-height: 59px;
+        border-bottom: 1px solid #dee0e1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 0 20px; }
+        .projects-grid-board > .tasks > .list > .header > .text {
+          font-size: 14px;
+          font-weight: 500; }
+        .projects-grid-board > .tasks > .list > .header > .progress .progress {
+          width: 100px; }
+      .projects-grid-board > .tasks > .list > .body {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        height: 1px; }
+        .projects-grid-board > .tasks > .list > .body > .jspContainer > .jspPane > div {
+          padding: 20px; }
+          .projects-grid-board > .tasks > .list > .body > .jspContainer > .jspPane > div > .custom-control + .custom-control {
+            margin-left: 0; }
+          .projects-grid-board > .tasks > .list > .body > .jspContainer > .jspPane > div > .checkbox {
+            display: block;
+            margin-bottom: 14px; }
+            .projects-grid-board > .tasks > .list > .body > .jspContainer > .jspPane > div > .checkbox > .custom-control-input:checked + .custom-control-indicator + .custom-control-description {
+              text-decoration: line-through;
+              color: #858585; }
+            .projects-grid-board > .tasks > .list > .body > .jspContainer > .jspPane > div > .checkbox:last-child {
+              margin-bottom: 0; }
+    .projects-grid-board > .tasks > .statistics {
+      width: 100%;
+      height: 196px;
+      border-top: 1px solid #dee0e1; }
+      .projects-grid-board > .tasks > .statistics td {
+        width: 50%;
+        border-right: 1px solid #dee0e1;
+        text-align: center; }
+      .projects-grid-board > .tasks > .statistics tr:first-child td:last-child {
+        border-bottom: 1px solid #dee0e1; }
+      .projects-grid-board > .tasks > .statistics .chart {
+        vertical-align: middle;
+        padding: 10px; }
+      .projects-grid-board > .tasks > .statistics .statistic-item {
+        text-align: center;
+        vertical-align: middle; }
+        .projects-grid-board > .tasks > .statistics .statistic-item > .amount {
+          display: block;
+          font-size: 30px;
+          font-weight: normal;
+          margin-bottom: 3px; }
+        .projects-grid-board > .tasks > .statistics .statistic-item > .text {
+          display: block;
+          text-transform: uppercase;
+          color: #858585;
+          font-size: 11px;
+          font-weight: 500; }
+
+@media screen and (max-width: 1600px) {
+  .projects-grid-board > .tasks {
+    width: 320px; } }
+
+@media screen and (max-width: 1200px) {
+  .projects-grid-board > .projects > .body .card {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 800px) {
+  .projects-grid-board > .projects > .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .projects-grid-board > .projects > .header > .search {
+      margin-bottom: 10px; }
+    .projects-grid-board > .projects > .header > .controls {
+      margin-left: 0;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+@media screen and (max-width: 690px) {
+  .projects-grid-board > .tasks {
+    display: none; } }

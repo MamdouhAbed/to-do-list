@@ -1,0 +1,159 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Container / .pricing-subscriptions-page
+2. Header / .pricing-subscriptions-page > .header
+3. Subscriptions plans / .pricing-subscriptions-page > .subscriptions
+-------------------------------------------------------------------*/
+.pricing-subscriptions-page {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  margin: 0 auto; }
+  .pricing-subscriptions-page > .header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative; }
+    .pricing-subscriptions-page > .header > .name {
+      font-size: 36px;
+      font-weight: normal;
+      margin-bottom: 10px; }
+    .pricing-subscriptions-page > .header > .description {
+      font-size: 14px;
+      color: #858585; }
+  .pricing-subscriptions-page > .subscriptions {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    position: relative;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .pricing-subscriptions-page > .subscriptions > .subscription-toggle {
+      position: absolute;
+      right: 0;
+      top: -100px; }
+      .pricing-subscriptions-page > .subscriptions > .subscription-toggle > .checkbox-text-slider {
+        text-align: right; }
+      .pricing-subscriptions-page > .subscriptions > .subscription-toggle > .description {
+        -webkit-border-radius: 2px;
+                border-radius: 2px;
+        background-color: rgba(46, 204, 113, 0.1);
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+        color: #4caf50;
+        padding: 7px 15px;
+        margin-top: 10px;
+        text-transform: uppercase; }
+    .pricing-subscriptions-page > .subscriptions > .subscription {
+      margin-top: 30px;
+      width: 364px;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      background: #ffffff;
+      border: solid 1px rgba(57, 81, 155, 0.1);
+      margin-right: 30px; }
+      .pricing-subscriptions-page > .subscriptions > .subscription:last-child {
+        margin-right: 0; }
+      .pricing-subscriptions-page > .subscriptions > .subscription > .header {
+        padding: 30px 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        border-bottom: 1px solid rgba(57, 80, 155, 0.1);
+        text-align: center; }
+        .pricing-subscriptions-page > .subscriptions > .subscription > .header > .name {
+          font-size: 14px;
+          font-weight: 500;
+          color: #333;
+          margin-bottom: 10px; }
+        .pricing-subscriptions-page > .subscriptions > .subscription > .header > .price {
+          font-size: 24px;
+          color: #333; }
+          .pricing-subscriptions-page > .subscriptions > .subscription > .header > .price > .amount {
+            display: inline-block;
+            color: #42a5f5;
+            margin-right: 5px; }
+      .pricing-subscriptions-page > .subscriptions > .subscription > .body {
+        padding: 30px 50px; }
+        .pricing-subscriptions-page > .subscriptions > .subscription > .body > ul {
+          margin: 0;
+          list-style: none;
+          padding: 0;
+          margin-bottom: 30px; }
+          .pricing-subscriptions-page > .subscriptions > .subscription > .body > ul > .item {
+            font-size: 12px;
+            margin-bottom: 11px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            -js-display: flex;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+            .pricing-subscriptions-page > .subscriptions > .subscription > .body > ul > .item:last-child {
+              margin-bottom: 0; }
+            .pricing-subscriptions-page > .subscriptions > .subscription > .body > ul > .item > .icon {
+              font-size: 20px;
+              line-height: 20px;
+              color: rgba(51, 51, 51, 0.3);
+              width: 28px; }
+            .pricing-subscriptions-page > .subscriptions > .subscription > .body > ul > .item > .text {
+              -webkit-box-flex: 1;
+              -webkit-flex-grow: 1;
+                  -ms-flex-positive: 1;
+                      flex-grow: 1; }
+            .pricing-subscriptions-page > .subscriptions > .subscription > .body > ul > .item > .amount {
+              font-weight: 500;
+              color: #333; }
+      .pricing-subscriptions-page > .subscriptions > .subscription.active {
+        background-color: rgba(33, 166, 240, 0.05);
+        border: solid 1px rgba(33, 166, 240, 0.2); }
+        .pricing-subscriptions-page > .subscriptions > .subscription.active > .body > ul > .item > .icon {
+          color: #42a5f5; }
+
+@media only screen and (max-width: 862px) {
+  .pricing-subscriptions-page > .subscriptions {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .pricing-subscriptions-page > .subscriptions > .subscription-toggle {
+      position: static; }
+      .pricing-subscriptions-page > .subscriptions > .subscription-toggle > .checkbox-text-slider {
+        text-align: center; } }

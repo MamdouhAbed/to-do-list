@@ -1,0 +1,38 @@
+.billing .body-wrap-container {
+  margin: 30px 15px; }
+
+.billing .col-info .plan-details td {
+  vertical-align: top; }
+
+.billing .col-info .plan-details .amount {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.billing .col-info .plan-details .plan {
+  font-size: 12px;
+  margin-bottom: 30px; }
+  .billing .col-info .plan-details .plan > .datetime {
+    margin-top: 2px;
+    color: #858585; }
+
+.billing .col-info .plan-details .description {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  .billing .col-info .plan-details .description li {
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase; }
+
+.billing .col-info .billing-details tr td, .billing .col-info .payment-details tr td {
+  padding-bottom: 10px; }
+
+.billing .col-info .billing-details tr td:first-child, .billing .col-info .payment-details tr td:first-child {
+  color: #858585;
+  width: 110px; }
+
+.billing .col-info .billing-details tr:last-child td, .billing .col-info .payment-details tr:last-child td {
+  padding-bottom: 0; }

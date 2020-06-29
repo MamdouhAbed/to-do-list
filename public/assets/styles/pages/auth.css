@@ -1,0 +1,192 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Container / .page
+2. Header / .page > .header
+3. Header logo / .page > .header > .logo
+4. Main content / .page > .body
+5. Footer / .page > .footer
+-------------------------------------------------------------------*/
+body {
+  padding: 0;
+  height: 100%;
+  background: #f5f6fa; }
+
+.page {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .page > .header > .logo {
+    margin-left: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #25628F;
+    font-weight: bold;
+    display: inline-block; }
+    .page > .header > .logo:hover, .page > .header > .logo:active, .page > .header > .logo:visited {
+      text-decoration: none; }
+  .page > .body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto; }
+    .page > .body > .logo {
+      color: #25628F;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-align: center; }
+    .page > .body > .panel {
+      width: 364px;
+      margin: 0 auto;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      background-color: #ffffff; }
+      .page > .body > .panel.signup, .page > .body > .panel.forgot-password {
+        width: 400px; }
+      .page > .body > .panel.signup {
+        min-height: 467px; }
+      .page > .body > .panel.login > .card-block > .form-container > .header, .page > .body > .panel.signup > .card-block > .form-container > .header, .page > .body > .panel.forgot-password > .card-block > .form-container > .header {
+        margin-bottom: 20px; }
+      .page > .body > .panel.confirm > .card-block > .header {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 20px; }
+      .page > .body > .panel.confirm > .card-block > .description {
+        line-height: 1.5;
+        font-size: 12px;
+        text-align: center; }
+      .page > .body > .panel.confirm > .card-block > .resend {
+        border-top: 1px solid #ebeef5;
+        padding-top: 20px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: -30px;
+        margin-right: -30px;
+        margin-bottom: -10px; }
+      .page > .body > .panel .col-sm-right {
+        padding-right: 7px; }
+      .page > .body > .panel .col-sm-left {
+        padding-left: 7px; }
+      .page > .body > .panel .card-block {
+        padding: 30px; }
+        .page > .body > .panel .card-block > .locked-form > .user {
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 20px; }
+          .page > .body > .panel .card-block > .locked-form > .user > .avatar {
+            text-align: center;
+            display: inline-block;
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px; }
+          .page > .body > .panel .card-block > .locked-form > .user > .name {
+            font-size: 14px;
+            font-weight: 500; }
+      .page > .body > .panel h4 {
+        text-align: center; }
+        .page > .body > .panel h4 span {
+          margin-top: 5px;
+          display: block;
+          font-size: 13px;
+          line-height: 1.3;
+          font-weight: normal; }
+      .page > .body > .panel .form-control {
+        border-color: rgba(57, 81, 155, 0.2); }
+        .page > .body > .panel .form-control:focus {
+          border-color: rgba(57, 81, 155, 0.3); }
+      .page > .body > .panel .icon-addon span {
+        color: rgba(51, 51, 51, 0.6); }
+      .page > .body > .panel .social {
+        margin-top: 15px;
+        margin-bottom: -14px;
+        padding: 15px 30px 0 30px;
+        border-top: 1px solid rgba(57, 81, 155, 0.2);
+        margin-right: -30px;
+        margin-left: -30px;
+        line-height: 36px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .page > .body > .panel .social a {
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          -webkit-border-radius: 2px;
+                  border-radius: 2px;
+          color: #fff;
+          opacity: 0.9;
+          font-size: 22px;
+          line-height: 36px;
+          text-align: center;
+          margin-right: 10px; }
+          .page > .body > .panel .social a.facebook {
+            background: #3b5998; }
+          .page > .body > .panel .social a.twitter {
+            background: #1da1f2; }
+          .page > .body > .panel .social a.google {
+            background: #db4437; }
+          .page > .body > .panel .social a:hover {
+            text-decoration: none; }
+          .page > .body > .panel .social a:last-child {
+            margin-right: 0; }
+    .page > .body > .panel-extra {
+      margin-top: 20px;
+      width: 364px;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      background-color: rgba(57, 81, 155, 0.05);
+      padding: 17px;
+      text-align: center; }
+  .page > .footer {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px; }
+    .page > .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: inline-block; }
+      .page > .footer ul li {
+        display: inline-block;
+        margin-left: 30px; }
+
+@media screen and (max-width: 575px) {
+  .page .signup .row > div + div {
+    margin-top: 20px; } }

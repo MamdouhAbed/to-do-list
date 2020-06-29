@@ -1,0 +1,157 @@
+.irs-slider-flat-danger .irs-line-mid,
+.irs-slider-flat-danger .irs-line-left,
+.irs-slider-flat-danger .irs-line-right,
+.irs-slider-flat-danger .irs-bar,
+.irs-slider-flat-danger .irs-bar-edge,
+.irs-slider-flat-danger .irs-slider {
+  background: url(../img/sprite-skin-flat-danger.png) repeat-x; }
+
+.irs-slider-flat-danger .irs {
+  height: 60px; }
+
+.irs-slider-flat-danger .irs-grid {
+  margin-left: 1px;
+  top: 42px; }
+
+.irs-slider-flat-danger .irs-with-grid {
+  height: 60px;
+  margin-left: 1px; }
+
+.irs-slider-flat-danger .irs-line {
+  height: 10px;
+  top: 25px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #ebebeb; }
+
+.irs-slider-flat-danger .irs-line-left {
+  height: 10px;
+  background-position: 0 -30px; }
+
+.irs-slider-flat-danger .irs-line-mid {
+  height: 10px;
+  background-position: 0 0; }
+
+.irs-slider-flat-danger .irs-line-right {
+  height: 10px;
+  background-position: 100% -30px; }
+
+.irs-slider-flat-danger .irs-bar {
+  height: 10px;
+  top: 25px;
+  background-position: 0 -56px; }
+
+.irs-slider-flat-danger .irs-bar-edge {
+  top: 25px;
+  height: 10px;
+  width: 9px;
+  background-position: 0 -84px; }
+
+.irs-slider-flat-danger .irs-shadow {
+  height: 3px;
+  top: 34px;
+  background: #000;
+  opacity: 0.25; }
+
+.irs-slider-flat-danger .lt-ie9 .irs-shadow {
+  filter: alpha(opacity=25); }
+
+.irs-slider-flat-danger .irs-slider {
+  width: 16px;
+  height: 18px;
+  top: 22px;
+  background-position: -2px -116px; }
+  .irs-slider-flat-danger .irs-slider.state_hover, .irs-slider-flat-danger .irs-slider:hover {
+    background-position: -2px -151px; }
+  .irs-slider-flat-danger .irs-slider.single {
+    background-position: -1px -116px; }
+    .irs-slider-flat-danger .irs-slider.single.state_hover, .irs-slider-flat-danger .irs-slider.single:hover {
+      background-position: -1px -151px; }
+
+.irs-slider-flat-danger .irs-min, .irs-slider-flat-danger .irs-max {
+  font-size: 10px;
+  padding: 0 5px;
+  font-weight: 500;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-stretch: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  color: #858585;
+  text-shadow: none;
+  top: -4px;
+  height: 18px;
+  background: #ebebeb;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
+.irs-slider-flat-danger .irs-from, .irs-slider-flat-danger .irs-to, .irs-slider-flat-danger .irs-single {
+  text-shadow: none;
+  height: 20px;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ef5350;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff;
+  cursor: pointer;
+  top: -4px; }
+
+.irs-slider-flat-danger .irs-from:after,
+.irs-slider-flat-danger .irs-to:after,
+.irs-slider-flat-danger .irs-single:after {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #ef5350; }
+
+.irs-slider-flat-danger .irs-grid-pol {
+  background-color: #c4cbe1; }
+
+.irs-slider-flat-danger .irs-grid-text {
+  color: #858585; }
+
+.irs-slider-flat-danger.hide-controls .irs-min, .irs-slider-flat-danger.hide-controls .irs-max, .irs-slider-flat-danger.hide-controls .irs-from, .irs-slider-flat-danger.hide-controls .irs-to, .irs-slider-flat-danger.hide-controls .irs-grid-pol, .irs-slider-flat-danger.hide-controls .irs-single, .irs-slider-flat-danger.hide-controls .irs-with-grid {
+  display: none; }
+
+.irs-slider-flat-danger.hide-controls .irs {
+  height: 20px; }
+
+.irs-slider-flat-danger.hide-controls .irs-line, .irs-slider-flat-danger.hide-controls .irs-bar-edge, .irs-slider-flat-danger.hide-controls .irs-bar {
+  top: 11px; }
+
+.irs-slider-flat-danger.hide-controls .irs-slider {
+  top: 2px; }

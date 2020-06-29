@@ -1,0 +1,73 @@
+.navbar > .wrapper > .nav > .navbar-actions > .user > .dropdown-toggle > .info {
+    margin-right: 12px;
+    margin-left: 0 !important;
+}
+.ks-page>.ks-body>.ks-panel h4 span {
+    margin-top: 10px !important;
+}
+#noty_layout__topLeft {
+    top: 65px;
+    left: 85px;
+}
+#image-select{
+    width: 100%;
+}
+.col-lg-8 .card{
+    margin-bottom: 30px;
+}
+.unpublish a{
+    color: darkgrey;
+}
+.btn_action a{
+    margin-left: 12px;
+    font-size: 12px;
+}
+.btn_action{
+    visibility: hidden;
+}
+
+.post_item:hover .btn_action {
+    visibility: visible;
+}
+.share_btn a{
+    font-size: 22px;
+    margin-left: 5px;
+    line-height: 35px;
+}
+.facebook{
+    color: #3a579a;
+}
+.twitter{
+    color: #00abf0;
+}
+.google-plus{
+    color: #df4a32;
+}
+.pinned{
+    background-color: #faffbd !important;
+}
+.unpublish{
+    color: #8896a1;
+}
+.unpublish:hover{
+    color: #6b7a85;
+}
+.dataTables_scrollBody{
+    width: 100% !important;
+}
+.view_site{
+    border-color: #ef5350 !important;
+}
+.view_site:hover{
+    background-color: #f44336 !important;
+    border-color: #f44336 !important;
+}
+.crm-user-view-activity-block .crm-user-view-activity-item .crm-user-view-activity-item-badge{
+    margin-right: 0;
+    margin-left: 17px;
+}
+@media only screen and (max-width: 1610px){
+    .navbar > .wrapper > .nav > .navbar-actions > .user .info {
+        display: block !important;
+    }
+}

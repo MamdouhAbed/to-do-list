@@ -1,0 +1,653 @@
+.btn-group .upload-dropdown-menu .dropdown-item {
+  padding: 16px 35px 16px 28px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #25628F; }
+  .btn-group .upload-dropdown-menu .dropdown-item .icon {
+    font-size: 20px;
+    font-weight: normal;
+    color: #25628F;
+    display: inline-block;
+    margin-right: 20px; }
+
+.btn-group .upload-custom-dropdown-menu {
+  width: 364px; }
+  .btn-group .upload-custom-dropdown-menu > .body {
+    padding: 20px; }
+    .btn-group .upload-custom-dropdown-menu > .body > .block {
+      height: 120px;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      background-color: rgba(57, 81, 155, 0.05);
+      border: dashed 1px rgba(57, 81, 155, 0.2);
+      padding: 20px;
+      text-align: center; }
+      .btn-group .upload-custom-dropdown-menu > .body > .block > .icon {
+        font-size: 38px;
+        font-weight: normal;
+        color: rgba(58, 82, 155, 0.15);
+        display: block; }
+      .btn-group .upload-custom-dropdown-menu > .body > .block > .description {
+        display: block;
+        font-weight: 500;
+        color: #333333;
+        margin-top: 8px; }
+      .btn-group .upload-custom-dropdown-menu > .body > .block > .info {
+        font-size: 12px;
+        font-weight: normal;
+        color: rgba(51, 51, 51, 0.6);
+        margin-top: 4px; }
+    .btn-group .upload-custom-dropdown-menu > .body > .uploading-files {
+      list-style: none;
+      margin: 0;
+      margin-top: 15px;
+      padding: 0; }
+      .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li {
+        list-style: none;
+        padding: 20px;
+        -webkit-border-radius: 2px;
+                border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px rgba(57, 81, 155, 0.15);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex; }
+        .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .body {
+          -webkit-box-flex: 1;
+          -webkit-flex-grow: 1;
+              -ms-flex-positive: 1;
+                  flex-grow: 1; }
+          .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .body > .header {
+            margin-bottom: 5px; }
+            .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .body > .header .icon {
+              font-size: 16px;
+              display: inline-block;
+              margin-right: 7px; }
+            .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .body > .header .filename {
+              font-weight: 500; }
+          .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .body > .uploading-progress {
+            font-size: 12px;
+            color: rgba(51, 51, 51, 0.6);
+            margin-top: 5px; }
+            .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .body > .uploading-progress > .progress {
+              margin-bottom: 5px; }
+        .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .uploading-cancel {
+          margin-left: 10px; }
+          .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .uploading-cancel > .icon {
+            font-size: 16px;
+            font-weight: normal;
+            color: rgba(58, 82, 155, 0.6);
+            display: inline-block;
+            margin-top: 20px;
+            cursor: pointer; }
+            .btn-group .upload-custom-dropdown-menu > .body > .uploading-files li > .uploading-cancel > .icon:hover {
+              text-decoration: none;
+              color: rgba(58, 82, 155, 0.8); }
+    .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files {
+      list-style: none;
+      margin: 0;
+      margin-top: 15px;
+      padding: 0; }
+      .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex;
+        padding: 10px 20px;
+        -webkit-border-radius: 2px;
+                border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px rgba(57, 81, 155, 0.15); }
+        .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li > .body {
+          -webkit-box-flex: 1;
+          -webkit-flex-grow: 1;
+              -ms-flex-positive: 1;
+                  flex-grow: 1; }
+          .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li > .body > .header > .icon {
+            font-size: 16px;
+            display: inline-block;
+            margin-right: 7px;
+            position: relative;
+            top: 1px; }
+          .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li > .body > .header > .filename {
+            font-weight: bold;
+            position: relative;
+            top: 1px; }
+        .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li > .remove {
+          margin-left: 10px; }
+          .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li > .remove > .icon {
+            font-size: 17px;
+            font-weight: normal;
+            color: rgba(58, 82, 155, 0.6);
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            top: 1px; }
+            .btn-group .upload-custom-dropdown-menu > .body > .uploaded-files li > .remove > .icon:hover {
+              text-decoration: none;
+              color: rgba(58, 82, 155, 0.8); }
+  .btn-group .upload-custom-dropdown-menu > .footer {
+    height: 65px;
+    background-color: rgba(57, 81, 155, 0.05);
+    padding: 15px 20px;
+    border-top: 1px solid rgba(57, 81, 155, 0.2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .btn-group .upload-custom-dropdown-menu > .footer > .btn + .btn {
+      margin-left: 10px; }
+
+.tabs-uploader-widget .tab-upload-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+  .tabs-uploader-widget .tab-upload-content > .icon {
+    font-size: 46px;
+    font-weight: normal;
+    color: rgba(58, 82, 155, 0.1);
+    margin-bottom: 15px; }
+  .tabs-uploader-widget .tab-upload-content > .tab-upload-description {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: rgba(51, 51, 51, 0.6);
+    margin-bottom: 15px; }
+  .tabs-uploader-widget .tab-upload-content > .tab-upload-link {
+    margin-bottom: 15px; }
+    .tabs-uploader-widget .tab-upload-content > .tab-upload-link > .form-control {
+      width: 240px; }
+
+.tabs-uploader-widget > .tab-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.tabs-uploader-widget.tabs-vertical .nav-tabs {
+  border-right: none; }
+  .tabs-uploader-widget.tabs-vertical .nav-tabs .nav-item > .nav-link.active {
+    background: #fff; }
+
+.card .tabs-uploader-widget {
+  border: none; }
+
+.widget-attachments {
+  margin-bottom: 30px; }
+  .widget-attachments > .card-block > .header {
+    margin-top: 0;
+    margin-bottom: 15px; }
+  .widget-attachments .upload-block {
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    border: dashed 1px rgba(57, 81, 155, 0.2);
+    padding: 14px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 25px; }
+    .widget-attachments .upload-block > .icon {
+      font-size: 34px;
+      font-weight: normal;
+      color: rgba(58, 82, 155, 0.15);
+      line-height: 24px;
+      margin-right: 20px; }
+    .widget-attachments .upload-block > .text {
+      font-size: 12px;
+      color: rgba(51, 51, 51, 0.6);
+      line-height: 12px; }
+    .widget-attachments .upload-block > .upload-btn > .btn-separator {
+      font-size: 13px;
+      color: rgba(51, 51, 51, 0.6);
+      line-height: 12px;
+      display: inline-block;
+      margin-left: 10px;
+      position: relative;
+      top: 1px; }
+    .widget-attachments .upload-block > .upload-btn > .btn {
+      margin-left: 10px; }
+  .widget-attachments .uploading-files-container {
+    display: none; }
+  .widget-attachments .uploading-progress-block {
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    background-color: rgba(57, 81, 155, 0.05);
+    padding: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 12px;
+    color: rgba(51, 51, 51, 0.6);
+    margin-bottom: 25px; }
+    .widget-attachments .uploading-progress-block .filename {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      font-weight: 500; }
+    .widget-attachments .uploading-progress-block .progress {
+      margin: 0;
+      -webkit-box-flex: 3;
+      -webkit-flex-grow: 3;
+          -ms-flex-positive: 3;
+              flex-grow: 3; }
+      .widget-attachments .uploading-progress-block .progress > .progress {
+        width: 100%; }
+    .widget-attachments .uploading-progress-block .cancel-block {
+      width: 10%;
+      text-align: right;
+      position: relative;
+      top: 2px; }
+      .widget-attachments .uploading-progress-block .cancel-block > .icon {
+        font-size: 16px;
+        color: rgba(58, 82, 155, 0.6);
+        cursor: pointer; }
+        .widget-attachments .uploading-progress-block .cancel-block > .icon:hover {
+          text-decoration: none;
+          color: rgba(58, 82, 155, 0.8); }
+  .widget-attachments .files {
+    height: auto;
+    overflow: hidden;
+    margin-bottom: -15px; }
+    .widget-attachments .files > ul {
+      margin: 0;
+      padding: 0;
+      height: auto;
+      overflow: hidden;
+      list-style: none; }
+    .widget-attachments .files .file {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px; }
+      .widget-attachments .files .file:last-child {
+        margin-right: 0; }
+      .widget-attachments .files .file > .thumb {
+        width: 64px;
+        height: 64px;
+        border: none;
+        -webkit-border-radius: 2px;
+                border-radius: 2px; }
+      .widget-attachments .files .file .icon {
+        font-size: 18px;
+        font-weight: normal;
+        color: rgba(58, 82, 155, 0.6);
+        display: inline-block;
+        margin-left: 5px;
+        position: relative;
+        top: 4px;
+        cursor: pointer; }
+        .widget-attachments .files .file .icon:hover {
+          text-decoration: none;
+          color: rgba(58, 82, 155, 0.8); }
+
+.attach-files-widget {
+  margin-bottom: 30px; }
+  .attach-files-widget .card-block {
+    padding: 0; }
+  .attach-files-widget .upload {
+    padding: 30px;
+    background-color: rgba(57, 81, 155, 0.05);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .attach-files-widget .upload > .icon {
+      font-size: 34px;
+      color: rgba(58, 82, 155, 0.15);
+      margin-right: 20px; }
+    .attach-files-widget .upload > .text {
+      margin-right: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      color: rgba(51, 51, 51, 0.6); }
+    .attach-files-widget .upload.dragover {
+      background-color: rgba(57, 81, 155, 0.08); }
+      .attach-files-widget .upload.dragover > .icon {
+        color: rgba(58, 82, 155, 0.2); }
+      .attach-files-widget .upload.dragover > .text {
+        color: rgba(51, 51, 51, 0.8); }
+  .attach-files-widget .uploading-files {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .attach-files-widget .uploading-files > li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 15px 20px;
+      width: 100%;
+      border-bottom: 1px solid rgba(57, 81, 155, 0.2); }
+      .attach-files-widget .uploading-files > li > .icon {
+        font-size: 36px;
+        margin-right: 15px; }
+      .attach-files-widget .uploading-files > li > .body {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; }
+        .attach-files-widget .uploading-files > li > .body > .header {
+          margin-bottom: 5px; }
+          .attach-files-widget .uploading-files > li > .body > .header > .filename {
+            font-size: 13px;
+            font-weight: 500;
+            color: #333333; }
+        .attach-files-widget .uploading-files > li > .body > .progress {
+          font-size: 12px;
+          color: rgba(51, 51, 51, 0.6); }
+          .attach-files-widget .uploading-files > li > .body > .progress > .progress {
+            margin-bottom: 5px; }
+      .attach-files-widget .uploading-files > li > .cancel {
+        margin-left: 10px;
+        color: rgba(58, 82, 155, 0.6);
+        cursor: pointer;
+        position: relative;
+        top: 2px; }
+        .attach-files-widget .uploading-files > li > .cancel > .icon {
+          font-size: 16px;
+          color: rgba(58, 82, 155, 0.6); }
+          .attach-files-widget .uploading-files > li > .cancel > .icon:hover {
+            color: rgba(58, 82, 155, 0.8);
+            text-decoration: none; }
+      .attach-files-widget .uploading-files > li.file-uploading-error > .body > .header > .filename {
+        color: #ef5350; }
+      .attach-files-widget .uploading-files > li.file-uploading-error > .body > .progress > .description {
+        color: #ef5350; }
+  .attach-files-widget .uploaded-files {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .attach-files-widget .uploaded-files > li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 15px 20px;
+      width: 100%;
+      border-bottom: 1px solid rgba(57, 81, 155, 0.2); }
+      .attach-files-widget .uploaded-files > li > .icon {
+        font-size: 36px;
+        margin-right: 15px; }
+      .attach-files-widget .uploaded-files > li > .body {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; }
+        .attach-files-widget .uploaded-files > li > .body > .header {
+          margin-bottom: 1px; }
+        .attach-files-widget .uploaded-files > li > .body > .filename {
+          font-size: 13px;
+          color: #333333; }
+        .attach-files-widget .uploaded-files > li > .body > .description {
+          font-size: 12px;
+          color: rgba(51, 51, 51, 0.6); }
+      .attach-files-widget .uploaded-files > li > .remove {
+        margin-left: 10px;
+        cursor: pointer; }
+        .attach-files-widget .uploaded-files > li > .remove > .icon {
+          font-size: 17px;
+          line-height: 17px;
+          color: rgba(58, 82, 155, 0.6); }
+          .attach-files-widget .uploaded-files > li > .remove > .icon:hover {
+            color: rgba(58, 82, 155, 0.8);
+            text-decoration: none; }
+
+.select-attachment {
+  height: 120px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background: rgba(57, 81, 155, 0.05);
+  border: dashed 1px rgba(57, 81, 155, 0.2);
+  padding: 20px;
+  text-align: center; }
+  .select-attachment > .icon {
+    font-size: 36px;
+    font-weight: normal;
+    color: rgba(58, 82, 155, 0.15);
+    display: block; }
+  .select-attachment > .description {
+    display: block;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 8px; }
+  .select-attachment > .info {
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(51, 51, 51, 0.6);
+    margin-top: 4px; }
+
+.uploading-attachments {
+  list-style: none;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0; }
+  .uploading-attachments > li {
+    list-style: none;
+    overflow: hidden;
+    height: auto;
+    padding: 20px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    background: #ffffff;
+    border: solid 1px rgba(57, 81, 155, 0.15);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex; }
+    .uploading-attachments > li + li {
+      margin-top: 10px; }
+    .uploading-attachments > li > .body {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      .uploading-attachments > li > .body > .header > .icon {
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 7px; }
+      .uploading-attachments > li > .body > .header > .name {
+        font-weight: 500; }
+      .uploading-attachments > li > .body > .uploading-progress {
+        margin-top: 5px;
+        font-size: 12px;
+        color: rgba(51, 51, 51, 0.6); }
+        .uploading-attachments > li > .body > .uploading-progress > .progress {
+          margin-bottom: 5px; }
+    .uploading-attachments > li > .cancel {
+      margin-left: 10px; }
+      .uploading-attachments > li > .cancel > .icon {
+        font-size: 16px;
+        font-weight: normal;
+        color: rgba(58, 82, 155, 0.6);
+        display: inline-block;
+        margin-top: 20px;
+        cursor: pointer; }
+        .uploading-attachments > li > .cancel > .icon:hover {
+          color: rgba(58, 82, 155, 0.8); }
+
+.uploaded-attachments {
+  list-style: none;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0; }
+  .uploaded-attachments li {
+    overflow: hidden;
+    height: auto;
+    padding: 10px 20px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    background-color: #fff;
+    border: solid 1px rgba(57, 81, 155, 0.15);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex; }
+    .uploaded-attachments li > .body {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      .uploaded-attachments li > .body .header .icon {
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 7px;
+        position: relative;
+        top: 1px; }
+      .uploaded-attachments li > .body .header > .name {
+        font-weight: 500;
+        position: relative;
+        top: 1px; }
+      .uploaded-attachments li > .body .description {
+        font-size: 12px;
+        color: #858585;
+        margin-top: 5px; }
+    .uploaded-attachments li .remove {
+      margin-left: 10px; }
+      .uploaded-attachments li .remove > .icon {
+        font-size: 16px;
+        font-weight: normal;
+        color: rgba(58, 82, 155, 0.6);
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        top: 1px; }
+        .uploaded-attachments li .remove > .icon:hover {
+          color: rgba(58, 82, 155, 0.8); }
+
+.widget-upload-dropzone {
+  padding: 20px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  background-color: #fff;
+  border: dashed 1px rgba(23, 23, 23, 0.25);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .widget-upload-dropzone:hover {
+    border: dashed 1px rgba(23, 23, 23, 0.35); }
+  .widget-upload-dropzone.dragover {
+    background: rgba(23, 23, 23, 0.04);
+    border: dashed 1px rgba(23, 23, 23, 0.45); }
+
+.widget-upload-dropzone-header {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.widget-upload-dropzone-description {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(18, 18, 18, 0.6); }
+  .widget-upload-dropzone-description .bold {
+    color: #333; }

@@ -1,0 +1,25 @@
+.area-chart .grid .tick {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges; }
+
+.area-chart .grid path {
+  stroke-width: 0; }
+
+.area-chart.theme-primary .line {
+  stroke-width: 1px;
+  stroke: rgba(57, 81, 155, 0.3);
+  fill: none; }
+
+.area-chart.theme-primary .area {
+  fill: rgba(57, 80, 155, 0.1);
+  stroke-width: 0; }
+
+.area-chart.theme-purple .line {
+  stroke-width: 1px;
+  stroke: rgba(203, 72, 186, 0.3);
+  fill: none; }
+
+.area-chart.theme-purple .area {
+  fill: rgba(203, 72, 186, 0.2);
+  stroke-width: 0; }

@@ -1,0 +1,38 @@
+
+  .sweet-alert h2 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #333333;
+    margin: 0;
+  }
+  .sweet-alert .lead {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.7);
+  }
+  .sweet-alert .sa-button-container {
+    margin-top: 25px;
+    direction: ltr;
+  }
+
+  .sweet-alert .btn.btn-lg {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+  .sweet-alert .btn:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .sweet-alert .sa-custom {
+    margin-bottom: 20px;
+  }
+  .sweet-alert .btn.cancel {
+    margin-left: 10px;
+  }
+@media (max-width: 767px) {
+  .sweet-alert {
+    left: 50%;
+  }
+}

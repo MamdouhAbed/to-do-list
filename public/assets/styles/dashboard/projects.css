@@ -1,0 +1,134 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Container / .projects-dashboard-page
+2. Project header / .projects-dashboard-page > .header
+3. Tasks project logo / .projects-dashboard-page > .header > .project > .logo
+4. Search and Users list / .projects-dashboard-page > .header > .extras
+5. Widgets container / .projects-dashboard-page > .body
+-------------------------------------------------------------------*/
+.projects-dashboard-page {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%; }
+  .projects-dashboard-page > .header {
+    background: #fff;
+    min-height: 60px;
+    height: 60px;
+    border-bottom: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 30px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .projects-dashboard-page > .header > .project {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .projects-dashboard-page > .header > .project > .logo {
+        width: 36px;
+        height: 36px;
+        background-color: #ffffff;
+        border: solid 1px #dee0e1;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        margin-right: 15px; }
+      .projects-dashboard-page > .header > .project > .name {
+        font-size: 18px; }
+    .projects-dashboard-page > .header > .extras {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .projects-dashboard-page > .header > .extras > .search {
+        width: 318px; }
+      .projects-dashboard-page > .header > .extras > .users {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -js-display: flex;
+        display: flex;
+        margin-left: 40px; }
+        .projects-dashboard-page > .header > .extras > .users > a {
+          margin-right: 10px;
+          width: 26px;
+          height: 26px; }
+          .projects-dashboard-page > .header > .extras > .users > a.add {
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            color: #25628F;
+            display: -webkit-inline-box;
+            display: -webkit-inline-flex;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            line-height: 14px;
+            background-color: #fff;
+            font-size: 19px;
+            border: solid 1px rgba(57, 81, 155, 0.3); }
+            .projects-dashboard-page > .header > .extras > .users > a.add:hover {
+              border: 1px solid #25628F; }
+          .projects-dashboard-page > .header > .extras > .users > a:last-child {
+            margin-right: 0; }
+  .projects-dashboard-page > .body {
+    padding: 30px 20px; }
+
+@media screen and (max-width: 780px) {
+  .projects-dashboard-page > .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 20px 30px; }
+    .projects-dashboard-page > .header > .project {
+      margin-bottom: 15px; } }
+
+@media screen and (max-width: 570px) {
+  .projects-dashboard-page > .header > .extras {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .projects-dashboard-page > .header > .extras > .search {
+      margin-bottom: 15px; }
+    .projects-dashboard-page > .header > .extras > .users {
+      margin-left: 0; } }

@@ -1,0 +1,226 @@
+.music-app {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  height: 100%;
+  position: relative; }
+  .music-app .music-app-content {
+    background: #fff;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .music-app .music-app-content .music-app-content-cover {
+      min-height: 170px;
+      background-color: #263155;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex;
+      padding: 30px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      /*background: url("../../img/blur-image.jpg") top center no-repeat;
+      background-size: cover;*/ }
+      .music-app .music-app-content .music-app-content-cover .music-cover-image {
+        width: 110px;
+        height: 110px;
+        margin-right: 20px; }
+      .music-app .music-app-content .music-app-content-cover .music-cover-info .music-cover-info-header {
+        color: #fff;
+        margin: 0; }
+      .music-app .music-app-content .music-app-content-cover .music-cover-info .music-album-info {
+        margin: 14px 0;
+        padding: 0; }
+        .music-app .music-app-content .music-app-content-cover .music-cover-info .music-album-info > li {
+          font-size: 12px;
+          font-weight: 500;
+          display: inline-block;
+          color: #fff; }
+          .music-app .music-app-content .music-app-content-cover .music-cover-info .music-album-info > li + li {
+            margin-left: 15px; }
+            .music-app .music-app-content .music-app-content-cover .music-cover-info .music-album-info > li + li::before {
+              content: "";
+              background: #fff;
+              width: 5px;
+              height: 5px;
+              -webkit-border-radius: 8px;
+                      border-radius: 8px;
+              margin-right: 15px;
+              display: inline-block;
+              position: relative;
+              top: -2px; }
+      .music-app .music-app-content .music-app-content-cover .music-cover-info .music-cover-mobile-controls {
+        display: none; }
+      .music-app .music-app-content .music-app-content-cover .music-cover-info .music-cover-controls .btn + .btn, .music-app .music-app-content .music-app-content-cover .music-cover-info .music-cover-mobile-controls .btn + .btn {
+        margin-left: 10px; }
+    .music-app .music-app-content .music-app-content-songs {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      .music-app .music-app-content .music-app-content-songs .table {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none; }
+        .music-app .music-app-content .music-app-content-songs .table th, .music-app .music-app-content .music-app-content-songs .table td {
+          border: none; }
+        .music-app .music-app-content .music-app-content-songs .table th {
+          color: rgba(51, 51, 51, 0.6);
+          font-weight: normal; }
+        .music-app .music-app-content .music-app-content-songs .table .album-song-number, .music-app .music-app-content .music-app-content-songs .table .album-song-duration {
+          width: 1px;
+          color: rgba(51, 51, 51, 0.6); }
+  .music-app .music-app-player {
+    display: none; }
+  .music-app.player-active .music-app-content .music-app-content-songs .table {
+    margin-bottom: 75px; }
+  .music-app.player-active .music-app-player {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+    background: #fff;
+    right: 0;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .music-app.player-active .music-app-player-progress {
+    position: relative;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+    margin: 0; }
+  .music-app.player-active .music-app-player-progress-elapsed-time {
+    position: absolute;
+    left: 7px;
+    line-height: 17px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff; }
+  .music-app.player-active .music-app-player-progress-duration {
+    position: absolute;
+    right: 7px;
+    line-height: 17px;
+    font-size: 10px;
+    font-weight: 500; }
+  .music-app.player-active .music-app-player-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 12px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    .music-app.player-active .music-app-player-wrapper .music-app-player-song-info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-info .music-app-player-info-header {
+        margin-bottom: 2px; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-info .music-app-player-album-image {
+        width: 36px;
+        height: 36px;
+        margin-right: 10px; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-info .music-app-player-info-song-name {
+        font-weight: 500;
+        font-size: 12px; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-info .music-app-player-info-album-name {
+        font-size: 12px;
+        color: rgba(51, 51, 51, 0.6);
+        margin-left: 7px;
+        display: inline-block; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-info .music-app-player-info-artist {
+        font-size: 12px; }
+    .music-app.player-active .music-app-player-wrapper .music-app-player-song-controls .music-app-player-song-control {
+      display: inline-block;
+      font-size: 24px;
+      cursor: pointer; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-controls .music-app-player-song-control + .music-app-player-song-control {
+        margin-left: 10px; }
+    .music-app.player-active .music-app-player-wrapper .music-app-player-song-extra-controls {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-extra-controls .music-app-player-song-extra-control {
+        display: inline-block;
+        font-size: 24px;
+        cursor: pointer;
+        margin-left: 10px; }
+    .music-app.player-active .music-app-player-wrapper .music-app-player-song-extra-control-volume {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      -js-display: flex;
+      display: flex; }
+      .music-app.player-active .music-app-player-wrapper .music-app-player-song-extra-control-volume .music-app-volume-control {
+        width: 100px;
+        margin-left: 10px; }
+
+@media screen and (max-width: 780px) {
+  .btn.music-app-navigation-block-toggle {
+    position: static; }
+  .music-app > .music-app-content {
+    width: 100%; }
+  .music-app > .navigation {
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    top: 120px;
+    width: 250px;
+    visibility: hidden;
+    left: -250px; }
+    .music-app > .navigation.open {
+      visibility: visible;
+      left: 0;
+      -webkit-transition: left .2s ease;
+      transition: left .2s ease; }
+  .music-app .music-app-player .music-app-player-wrapper .music-app-player-song-info {
+    display: none; } }
+
+@media screen and (max-width: 510px) {
+  .music-app .music-app-content .music-app-content-cover {
+    padding: 10px;
+    min-height: 150px; }
+    .music-app .music-app-content .music-app-content-cover .music-cover-controls {
+      display: none; }
+    .music-app .music-app-content .music-app-content-cover .music-cover-info-header {
+      font-size: 20px; }
+    .music-app .music-app-content .music-app-content-cover .music-cover-info .music-cover-mobile-controls {
+      display: block; } }
